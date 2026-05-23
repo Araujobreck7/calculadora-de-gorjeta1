@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Space Mono" , serif;
 }
 
 :root{
@@ -143,10 +144,22 @@ main{
 } 
 
 .resultados{
+    
     background-color: var(--green-800);
     border-radius: 0.9375rem;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
 }
+
+.resultados div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 
  .resultados div div{
     display: flex;
